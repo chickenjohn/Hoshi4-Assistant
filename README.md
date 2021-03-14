@@ -1,6 +1,6 @@
 # Hoshi4 Assistant
 
-A toy python project mimicing the behavior of a simple voice assistant
+A toy python project mimicing the behavior of a simple voice assistant.
 
 This project is for celebrating Hoshi4, a Bilibili uploader's birthday in 2021.
 
@@ -21,5 +21,7 @@ Demo: https://www.bilibili.com/video/BV1VK4y1U7rM (4:06)
 * install [Raspberry Pi OS](https://www.raspberrypi.org/software/) on your Raspberry Pi
 * install the required packages
 * place your wave file in `./vocal_lib` (these wav files are not provided here as I'm not sure if I have the right to share).
+* apply and activate [Google Speech-to-Text API](https://cloud.google.com/speech-to-text) and generate an API key for it (tutorials [here](https://segmentfault.com/a/1190000014000349))
+* fill in your API key at `./main.py#L19`
 * fire it
 
